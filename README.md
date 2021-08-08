@@ -1,7 +1,7 @@
-#Named Entity Recognition in Indian Language(Kannada)
+# Named Entity Recognition in Indian Language(Kannada)
 Named Entity Recognition is a subtask of NLP aiming to identify real-world entities in texts, such as names of persons, organizations, and locations, among others. Named Entity Recognition (NER) is an important task in Natural Language Processing (NLP) applications like Information Extraction, Question Answering etc. In this project, we have proposed a system to recognize Kannada named entities like person name, location name, organization name, number, date, community for historical text. Kannada Historical corpus from various sites have been mined to obtain required dataset.
 
-##Training NER Model:
+## Training NER Model:
 1. 	The first thing to do is to find out a suitable dataset of historical articles and their NER labels.
 2.	After getting a suitable dataset, the next step is Data Preprocessing. In this, words are cleaned and tokenized(Split paragraphs to sentences if applicable). This step is done using standard nlp functions available in Python
 3. 	POS tagging of each token is performed using Viterbi algorithm. This gives us an extra feature to train and work with. Store output in a suitable output file. 
@@ -16,7 +16,7 @@ Named Entity Recognition is a subtask of NLP aiming to identify real-world entit
 Steps 4 to 9 performed in code nertraining.py
 [Reference fo code:](https://towardsdatascience.com/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2)
 
-##Training Results:
+## Training Results:
 
 Evaluation Output
                Precision    Recall   f1-score   
